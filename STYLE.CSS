@@ -1,0 +1,215 @@
+/* ==================================
+   GLOBAL RESET + BASIC STYLES
+================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f3f3f3;
+    color: #222;
+}
+
+
+
+/* ==================================
+   NAVIGATION BAR (COMMON)
+================================== */
+
+.navbar {
+    background: #222;
+    color: white;
+    padding: 15px 25px;
+
+    display: flex;            /* Flexbox */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-links li a:hover,
+.nav-links .active {
+    color: #ffcc00;
+}
+
+
+
+/* ==================================
+   HOME PAGE
+================================== */
+
+.home-section {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.welcome-box {
+    background: rgb(244, 44, 9);
+    padding: 30px;
+    border-left: 8px solid #ffcc00;
+    margin-bottom: 20px;
+}
+
+.welcome-box h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.welcome-box p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Float image (Required) */
+.home-image {
+    width: 260px;
+    float: right;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/* ==================================
+   ABOUT PAGE
+================================== */
+
+.about-section {
+    width: 90%;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-left: 8px solid #ffcc00;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Float image (Required) */
+.about-img {
+    width: 200px;
+    float: right;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+
+
+/* ==================================
+   SKILLS & PROJECTS PAGE
+================================== */
+
+.skills-section {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.skills-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Flexbox layout for cards */
+.skills-flex {
+    display: flex;          /* Flexbox (Required) */
+    gap: 20px;
+}
+
+.skill-card {
+    background: white;
+    padding: 20px;
+    width: 30%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.skill-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+
+
+/* ==================================
+   CONTACT PAGE
+================================== */
+
+.contact-section {
+    width: 90%;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-left: 8px solid #ffcc00;
+}
+
+.contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    font-size: 17px;
+    margin-top: 10px;
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin: 10px 0 20px 0;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background: #5d10f7;
+    color: rgb(222, 253, 23);
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #08df0b;
+}

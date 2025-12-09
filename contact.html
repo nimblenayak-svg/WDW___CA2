@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- =========================
+         NAVIGATION BAR (COMMON)
+    ========================== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Student Portfolio</div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- =========================
+         CONTACT FORM SECTION
+    ========================== -->
+    <section class="contact-section">
+        <h2>Contact Me</h2>
+
+        <form class="contact-form">
+
+            <!-- Name -->
+            <label>Your Name</label>
+            <input type="text" name="name" placeholder="Enter your name" required>
+
+            <!-- Email -->
+            <label>Your Email</label>
+            <input type="email" name="email" placeholder="Enter your email" required>
+
+            <!-- Subject -->
+            <label>Subject</label>
+            <input type="text" name="subject" placeholder="Enter subject" required>
+
+            <!-- Message -->
+            <label>Message</label>
+            <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+            <!-- Submit Button -->
+            <button type="submit">Send Message</button>
+
+        </form>
+    </section>
+
+</body>
+</html>
